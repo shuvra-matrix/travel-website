@@ -47,7 +47,7 @@ list-style: none;
 
 #logo{flex: 2 1 40rem;}
 
-.hero{background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),url("/img/david-marcu-78A265wPiO4-unsplash\ \(1\).jpg");
+.hero{background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),url("img/david-marcu-78A265wPiO4-unsplash\ \(1\).jpg");
 min-height: 90vh;
 background-repeat: no-repeat;
 background-size: cover;
@@ -72,7 +72,7 @@ transition: background 0.5s ease-in-out;}
 .hero button:hover{background: rgba(4, 59, 122, 0.637);border: 2px solid rgba(7, 58, 107, 0.733);}
 
 #location{min-height:100vh ;
-background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/img/new-york-page.png");
+background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("img/new-york-page.png");
 background-size: cover;
 background-position: center;
 display: flex;
@@ -152,7 +152,7 @@ color: white;}
 
 
 #contact{min-height: 100vh;
-background: linear-gradient(rgba(0, 0, 0, 0.5),transparent), url("/img/recal-media-ueBIGLmiI5A-unsplash.jpg");
+background: linear-gradient(rgba(0, 0, 0, 0.5),transparent), url("img/recal-media-ueBIGLmiI5A-unsplash.jpg");
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
