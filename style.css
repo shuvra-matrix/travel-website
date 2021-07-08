@@ -72,7 +72,7 @@ transition: background 0.5s ease-in-out;}
 .hero button:hover{background: rgba(4, 59, 122, 0.637);border: 2px solid rgba(7, 58, 107, 0.733);}
 
 #location{min-height:100vh ;
-background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("img/new-york-page.png");
+background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/img/new-york-page.png");
 background-size: cover;
 background-position: center;
 display: flex;
