@@ -1,0 +1,237 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html{font-size: 62.5%;}
+
+body{font-family: "Poppins" ,sans-serif;}
+
+
+h1{font-size: 2.6rem;
+font-family: 'Pattaya',
+sans-serif;
+}
+
+li, button, label,input,p{font-size: 2rem;}
+
+h2{font-size: 4rem;}
+h3{font-size: 2.5rem ;
+font-weight: normal;}
+h4,h5{font-size: 2.8rem;}
+
+
+
+
+.main-header {
+    background: #131c27;
+color: white;}
+
+
+a{text-decoration: none;
+color: white;}
+
+nav{padding: 2rem;
+display: flex;
+width: 90%;
+margin: auto;
+align-items: center;
+flex-wrap: wrap;
+}
+
+nav ul{display: flex;
+flex: 1 1 40rem;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+}
+
+#logo{flex: 2 1 40rem;}
+
+.hero{background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),url("/img/david-marcu-78A265wPiO4-unsplash\ \(1\).jpg");
+min-height: 90vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-shadow: 3px 3px 3px black;}
+
+.hero h3{padding: 5rem;}
+
+.hero button{padding: 1rem 3rem;
+background: rgba(100, 236, 36, 0.514);
+border: 2px solid rgba(27, 238, 37, 0.534);
+color: white;
+cursor: pointer;
+transition: background 0.5s ease-in-out;}
+
+.hero button:hover{background: rgba(4, 59, 122, 0.637);border: 2px solid rgba(7, 58, 107, 0.733);}
+
+#location{min-height:100vh ;
+background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("/img/new-york-page.png");
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+position: relative;
+overflow: hidden;
+}
+
+.location-head{
+    width: 90%;
+margin: auto;}
+
+.location-head h2{padding: 1rem 0rem;}
+
+.location-head h3{padding: 4rem 0rem;
+background: linear-gradient(#131c27,#663b34);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.cloud{position: absolute;
+top: 0%;
+right: 0%;
+pointer-events: none;}
+
+.moving-cloud-1 {
+    animation: cloudAnimation 4s infinite alternate ease-in-out;
+}
+.moving-cloud-2{top: 15%;z-index: -1;opacity: 0.5;} 
+
+
+@keyframes cloudAnimation{
+from{transform: translate(10%,-20%);}
+
+to{transform: translate(2%,0%);}
+
+}
+
+
+
+.benefits-head{background: #343c44;
+padding: 3rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;}
+
+
+.card{width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    flex: 1 1 25rem;
+    box-shadow: 0px 10px 10px rgba(26, 25, 25, 0.445),0px 20px 20px rgba(26, 25, 25, 0.445);
+
+}
+.cards img{
+  max-width: 15%;
+  margin: 2rem;
+}
+
+.card-icon{background: rgb(19, 15, 15);}
+
+.cards h4{padding: 1rem;}
+.cards p{padding: 1rem;}
+
+
+
+#contact{min-height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.5),transparent), url("/img/recal-media-ueBIGLmiI5A-unsplash.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;}
+
+.form-wrapper{background: rgba(77, 65, 65, 0.815);
+width: 60%;
+color:white;
+border-radius: 20px;}
+
+.form-head{text-align: center;
+padding: 4rem;}
+
+.name-form,.email-form{padding: 3rem;text-align: center;}
+
+.form-wrapper label{
+    margin:  0rem 3rem;
+}
+
+.form-wrapper button{
+    
+    width: 100%;padding: 2rem;margin-top: 
+    4rem;border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    background-color:rgba(34, 86, 107, 0.863);
+    border: none;
+    color:whitesmoke;
+    cursor: pointer;
+
+}
+
+footer{color:white;
+background-color: rgba(19,28,39,1);}
+
+.from-footer {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+  
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul{display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+@media (max-width:932px)
+{   
+    html{font-size: 48%;}
+    nav{text-align: center};
+    #logo{padding: 2rem;}
+    .cloud{height: 40rem;pointer-events: none;}
+    .moving-cloud-1{z-index: -1;}
+    .moving-cloud-2{z-index: -2;}
+    .location-head h3{background: rgba(39, 1, 1, 0.5);
+-webkit-text-fill-color:white;
+text-shadow: 3px 3px 3px black;
+padding-bottom: 1rem;
+
+}
+footer{text-align: center;}
+footer h5{padding-bottom: 2rem;}
+}
+
